@@ -8,6 +8,11 @@ body{
     font-family: 'Neucha', cursive;
 }
 
+.grid{
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -71,3 +76,65 @@ body{
     align-items: center;
     margin-left: 15px;
 }
+
+.banner-wrapper{
+    background: url('../img/1eb6c809cb91c5b70a5e5fe9fcd06573.jpg') no-repeat center / cover;
+}
+
+.breadcrums{
+    display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+    color: #ffffff;
+}
+
+.breadcrums__cinema{
+    padding-top: 103px;
+    font-size: 22px;
+}
+
+.breadcrums__cher{
+    padding-top: 33px;
+    font-size: 100px;
+}
+
+.breadcrums__contacts{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+    width: 100%;
+    padding-top: 198px;
+    padding-bottom: 98px;
+}
+
+.breadcrums__location{
+
+}
+
+.breadcrums__adres{
+    font-size: 28px;
+}
+
+.breadcrums__location{
+    font-size: 18px;
+}
+
+.breadcrums__col-center{
+
+}
+
+.breadcrums__tel{
+    font-size: 28px;
+}
+
+.breadcrums__col{
+    font-size: 18px;
+}
+
+/**/
