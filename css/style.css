@@ -7,3 +7,67 @@
 body{
     font-family: 'Neucha', cursive;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background: #061420;
+}
+
+.header__menu{
+    display: flex;
+}
+
+.header__btn{
+    min-width: 60px;
+    background: transparent;
+    border: none;
+}
+
+.header__list{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+
+.header__item{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.header__item:not(:last-child)::after{
+    content: '>';
+    padding: 10px;
+    color: #ffffff;
+}
+
+.header__link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header__info{
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+.header__city{
+    font-family: 'Neucha', cursive;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.header__btn--long{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
